@@ -1,0 +1,4 @@
+((author "Kasil")
+(synopsis "Tinyest egg, loads a png file, just for a little time then frees it")
+(license "none")
+(files "png.scm" "png.setup"))

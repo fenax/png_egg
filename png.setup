@@ -1,0 +1,7 @@
+
+(compile -s png.scm -C "`pkg-config --cflags libpng`" -L "`pkg-config --libs libpng`" -J)
+(compile -s png.import.scm -O3 -d0)
+
+
+
+(install-extension 'png '("png.so" "png.import.so"))
